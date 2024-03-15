@@ -9,7 +9,7 @@ from guided_diffusion.image_datasets import load_data
 from guided_diffusion.resample import create_named_schedule_sampler
 from guided_diffusion.script_util import (
     model_and_diffusion_defaults,
-    create_model_and_diffusion,
+    create_model_and_diffusion,create_DIT_model_and_diffusion,
     args_to_dict,
     add_dict_to_argparser,
 )
@@ -26,7 +26,7 @@ def main():
 
     logger.log("creating model and diffusion...")
     print(args_to_dict(args, model_and_diffusion_defaults().keys()))
-    model, diffusion = create_model_and_diffusion(
+    model, diffusion = create_DIT_model_and_diffusion(
         **args_to_dict(args, model_and_diffusion_defaults().keys())
     )
     model.to(dist_util.dev())
