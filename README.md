@@ -4,6 +4,7 @@ Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MR
 
 ## data preprocess
 All the npz data should contain ['rss'] key.
+```
 ├── fastmri_complex_value/
 │   ├──...
 │   ├── file_brain_AXT2_201_2010466_01.npz
@@ -17,6 +18,7 @@ All the npz data should contain ['rss'] key.
 │   ├── file_brain_AXT2_201_2010466_09.npz
 │   ├── file_brain_AXT2_201_2010466_10.npz
 │   ├──...
+```
 
 ## Train
 ```
