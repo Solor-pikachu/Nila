@@ -2,7 +2,7 @@
 Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MRI
 
 
-## data preprocess
+## Data preprocess
 All the npz data should contain ['rss'] key.
 ```
 ├── fastmri_complex_value/
@@ -24,4 +24,10 @@ All the npz data should contain ['rss'] key.
 ```
 cd Nila/nila_training
 sh train.sh
+```
+
+## Sampling
+Some simple demo are here.
+```
+cd Nila/nila_sampling
 ```
