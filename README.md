@@ -31,3 +31,12 @@ Some simple demo are here.
 ```
 cd Nila/nila_sampling
 ```
+
+## Reference
+@article{huang2024noise,
+  title={Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MRI},
+  author={Huang, Shoujin and Luo, Guanxiong and Wang, Xi and Chen, Ziran and Wang, Yuwan and Yang, Huaishui and Heng, Pheng-Ann and Zhang, Lingyan and Lyu, Mengye},
+  journal={arXiv preprint arXiv:2403.05245},
+  year={2024}
+}
+
