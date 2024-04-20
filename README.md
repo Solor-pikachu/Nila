@@ -5,6 +5,11 @@
 ## Data preprocess
 All the npz data should contain ['rss'] key.
 ```
+cd Nila/nila_training
+python preprocess.py
+```
+
+```
 ├── fastmri_complex_value/
 │   ├──...
 │   ├── file_brain_AXT2_201_2010466_01.npz
