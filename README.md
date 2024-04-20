@@ -1,5 +1,5 @@
 # Nila
-Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MRI
+👏👏 Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MRI
 
 
 ## Data preprocess
