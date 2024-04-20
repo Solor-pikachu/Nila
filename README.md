@@ -3,6 +3,8 @@
 
 
 ## Data preprocess
+PS: some details in ```nila_training/guided_diffusion/image_datasets.py```
+
 All the npz data should contain ['rss'] key.
 ```
 cd Nila/nila_training
