@@ -135,7 +135,7 @@ class ImageDataset(Dataset):
         arr = np.transpose(arr, [2, 0, 1]).astype(np.float32) #(2,320,320)
 
         arr = torch.from_numpy(arr)
-        arr = torch.nn.functional.interpolate(arr[None],size=[256,256],mode='bilinear')[0]
+        arr = torch.nn.functional.interpolate(arr[None],size=[256,256],mode='nearest')[0]
 
         arr = self.augment(arr)
 
