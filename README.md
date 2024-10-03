@@ -1,6 +1,8 @@
 # Nila
 👏👏 Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MRI
 
+🎆🎆 The papaer was accepted By MICCAI2024 
+
 PS: Model weight is released.
 
 ## Data preprocess
