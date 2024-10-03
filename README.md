@@ -36,7 +36,7 @@ cd Nila/nila_training
 sh train.sh
 ```
 
-## Sampling
+## MRI Reconstruction
 Some simple demo are here.
 ```
 cd Nila/nila_sampling
