@@ -1,6 +1,6 @@
 # Nila
 👏👏 Noise Level Adaptive Diffusion Model for Robust Reconstruction of Accelerated MRI
-
+PS: Model weight is released.
 
 ## Data preprocess
 PS: some details in ```nila_training/guided_diffusion/image_datasets.py```
